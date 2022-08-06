@@ -13,9 +13,9 @@ describe('creates.CreatePaymentRequest', () => {
             const title = "Zapier Test Payment Request";
             const description = "My Description";
             const amount = 5;
-            const currencyCode = "EUR";
+            const currencyCode = "USD";
 
-            // TODO the unix timestamp does not work. Bug in BTCPay? Should be fixed via https://github.com/btcpayserver/btcpayserver/pull/3284 but we need to test this in BTCPay 1.4.0 or later.
+            // TODO the unix timestamp does not work. Bug in ZEUSPay? Should be fixed via https://github.com/btcpayserver/btcpayserver/pull/3284 but we need to test this in ZEUSPay 1.4.0 or later.
             //const expiryDateUnixTimestamp = Math.floor((new Date().getTime()) / 1000) + (30*24*60*60);
             const expiryDateUnixTimestamp = null;
 

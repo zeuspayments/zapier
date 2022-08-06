@@ -1,5 +1,5 @@
 {
-  "name": "btc-pay-server",
+  "name": "zeus-pay",
   "version": "1.0.8",
   "description": "Start Accepting Bitcoin Payments With 0% Fees & No Third-party",
   "main": "index.js",

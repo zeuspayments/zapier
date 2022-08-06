@@ -18,10 +18,10 @@ module.exports = {
             computed: false,
             key: 'server_url',
             required: true,
-            label: 'BTCPay Server URL',
+            label: 'ZEUSPay Server URL',
             type: 'string',
-            helpText: 'Enter your BTCPay Server URL.',
-            default: 'https://mybtcpay.com',
+            helpText: 'Enter your ZEUSPay Server URL.',
+            default: 'https://app.zeuspay.com',
         },
         {
             computed: false,
@@ -29,8 +29,8 @@ module.exports = {
             required: true,
             label: 'API Key',
             type: 'string',
-            helpText: 'You can create an API key by going to **My Account > API Keys** in BTCPay Server. \n' +
-                '[Learn more about selecting the right permissions.](https://github.com/btcpayserver/zapier#which-permissions-should-i-choose-for-my-api-key)',
+            helpText: 'You can create an API key by going to **My Account > API Keys** in ZEUSPay. \n' +
+                '[Learn more about selecting the right permissions.](https://github.com/zeuspayments/zapier#which-permissions-should-i-choose-for-my-api-key)',
 
         }
     ],

@@ -10,7 +10,7 @@ describe('creates.invoice', () => {
             const currencyCode = 'EUR';
             const orderId = process.env.ZAPIER_ORDER;
             const buyerName = 'Wouter';
-            const redirectUrl = 'https://btcpayserver.org/';
+            const redirectUrl = 'https://zeuspay.com/';
 
             const bundle = {
                 authData: {
@@ -39,7 +39,7 @@ describe('creates.invoice', () => {
                     order_id: orderId,
                     redirect_url: redirectUrl,
                     buyer_name: buyerName,
-                    buyer_email: 'zapiertest@btcpayserver.org',
+                    buyer_email: 'zapiertest@zeuspay.com',
                     buyer_country: 'BE',
                     buyer_zip: '1000',
                     buyer_state: 'Happy State',
@@ -64,7 +64,7 @@ describe('creates.invoice', () => {
             expect(invoice.currency).toBe(currencyCode);
             expect(invoice.metadata.orderId).toBe(orderId);
             expect(invoice.metadata.buyerName).toBe(buyerName);
-            expect(invoice.metadata.buyerEmail).toBe('zapiertest@btcpayserver.org');
+            expect(invoice.metadata.buyerEmail).toBe('zapiertest@zeuspay.com');
             expect(invoice.metadata.buyerCountry).toBe('BE');
             expect(invoice.metadata.buyerZip).toBe('1000');
             expect(invoice.metadata.buyerState).toBe('Happy State');

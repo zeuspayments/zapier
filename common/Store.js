@@ -33,7 +33,7 @@ module.exports = {
             required: true,
             list: false,
             altersDynamicFields: false,
-            helpText: 'The BTCPay Server store that contains the invoice.',
+            helpText: 'The ZEUSPay store that contains the invoice.',
             dynamic: 'storeList.id.name' // Meaning: resource "store" with method "list". The value is in the "id" field and the label is in the "name" field.
         }
     },
@@ -63,8 +63,8 @@ module.exports = {
     ],
     // sample: {
     //   "id": "Hf9GvFK2dHJehm9J8A6kYfbc1ruc5jEZBKEr9r7jsrLo",
-    //   "name": "Storefront",
-    //   "website": "storefront.be",
+    //   "name": "ZEUSPay",
+    //   "website": "zeuspay.com",
     //   "invoiceExpiration": 900,
     //   "monitoringExpiration": 3600,
     //   "speedPolicy": "MediumSpeed",

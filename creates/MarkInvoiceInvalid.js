@@ -20,14 +20,14 @@ module.exports = {
         ],
         sample: {
             id: 'VDdmfYJzJm9VtqW8hqhypF',
-            checkoutLink: 'https://mybtcpayserver.com/i/VDdmfYJzJm9VtqW8hqhypF',
+            checkoutLink: 'https://app.zeuspay.com/i/VDdmfYJzJm9VtqW8hqhypF',
             status: 'Invalid',
             additionalStatus: 'None',
             createdTime: "2021-07-08T12:17:24.000Z",
             expirationTime: "2021-07-08T12:32:24.000Z",
             monitoringExpiration: "2021-07-08T13:17:24.000Z",
             amount: 7.0,
-            currency: 'EUR',
+            currency: 'USD',
             metadata: {},
             checkout: {
                 speedPolicy: 'MediumSpeed',
